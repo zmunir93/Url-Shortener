@@ -1,0 +1,7 @@
+<p>Enter a url that you would like shortened!</p>
+
+
+<%= form_for :url do |link| %>
+  Full Url: <%= link.url_field :link, required: true%><br />
+  <%= link.submit %>
+<% end %>

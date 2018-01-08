@@ -1,0 +1,5 @@
+<h1>Your links</h1>
+
+<% @urls.each do |l| %>
+<li><%=link_to l.id, l.link %></li>
+<% end %>
